@@ -1,0 +1,43 @@
+// Use the gear_dropdown.png screenshot as a style guide
+.gear-dropdown-btn {
+  position: relative;
+}
+
+.gear-dropdown {
+  position: absolute;
+  font-family: $sans-serif;
+  color: grey;
+  width: 200px;
+  top: 42px;
+  // ideally to have the position of gear icon
+  right: 140px;
+  border: 1px solid $light-gray;
+  background-color: white;
+  z-index: 1;
+  border-radius: 2px;
+  box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+}
+
+.gear-dropdown li {
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.help > li:last-of-type {
+  text-transform: capitalize;
+}
+
+.dropdown-subtitle {
+  margin: 5px;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.editions li:hover{
+  background-color: $lightest-gray;
+}
+
+.editions > li:last-of-type  {
+  border-bottom: 1px solid whitesmoke;
+}
